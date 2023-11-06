@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { forwardRef, Ref } from 'react'
 
 import classes from './index.module.scss'

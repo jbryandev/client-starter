@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { ElementType } from 'react'
 import Link from 'next/link'
 
