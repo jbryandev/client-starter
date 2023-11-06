@@ -1,0 +1,19 @@
+{
+  "name": "client-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "generate:types": "cd backend && bun run generate:types"
+  },
+  "dependencies": {
+    "turbo": "^1.10.16"
+  },
+  "packageManager": "pnpm@8.10.2",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}
